@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url("picture/bg2.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.profile{
+    text-align: center;
+    width: 100%;
+    background-image: url("picture/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: white;
+    
+    }
+#nama{
+    color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#about {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        border-radius: 50%;
+        }
+hr .new1{
+    border-top: 1px dotted white;
+}
+
+.exp{
+    text-align: left;
+    border-left: 1px;
+    border-right: 1px;
+    background-image: url("picture/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: white;
+    
+}
+.edu,.org{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    
+}
